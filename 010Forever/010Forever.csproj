@@ -3,9 +3,40 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>_010Forever</RootNamespace>
+    <RootNamespace>Z10Forever</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <ApplicationIcon>resources\010ico.ico</ApplicationIcon>
+    <Authors>PsychoPast</Authors>
+    <Copyright>PsychoPast © 2021</Copyright>
+    <PackageProjectUrl>https://github.com/psychopast/010forever</PackageProjectUrl>
+    <PackageIcon>010ico.ico</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/psychopast/010forever</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.0</FileVersion>
+    <PackageLicenseFile>C:\Users\Christopher\Desktop\Coding Projects\010Forever\LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="resources\010ico.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="resources\010ico.ico">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
