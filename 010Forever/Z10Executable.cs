@@ -121,8 +121,8 @@ internal class Z10Executable
         }
 
         Console.ForegroundColor = ConsoleColor.DarkGreen;
-        Console.WriteLine($"[Succesfully patched the executable. Enjoy 010Editor f o r e v e r :D]");
+        Console.WriteLine("[Succesfully patched the executable. Enjoy 010Editor f o r e v e r :D]");
         Console.ForegroundColor = ConsoleColor.White;
-        Console.WriteLine("\n\nNB: If you need to reverse the changes made to the file, simply navigate to your installation folder, delete '{ExeName}' and rename '{ExeName}.bak' to '{ExeName}'.");
+        Console.WriteLine($"\n\nNB: If you need to reverse the changes made to the file, simply navigate to your installation folder, delete '{ExeName}' and rename '{ExeName}.bak' to '{ExeName}'.");
     }
 }

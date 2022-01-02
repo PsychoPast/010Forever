@@ -17,6 +17,7 @@ if (!Directory.Exists(folder))
 {
     Console.ForegroundColor = ConsoleColor.DarkRed;
     Console.WriteLine("[X] Provided directory doesn't exist.");
+    Console.ReadKey(true);
     return 1;
 }
 
@@ -29,6 +30,7 @@ catch (FileNotFoundException)
 {
     Console.ForegroundColor = ConsoleColor.DarkRed;
     Console.WriteLine($"[X] {Z10Executable.ExeName} doesn't exist in provided folder. It may have been moved, deleted or renamed.");
+    Console.ReadKey(true);
     return 2;
 }
 
@@ -49,4 +51,5 @@ if (!Utils.ExecuteIfRequested("[?] Do you want to patch the executable? [Y/Any K
     return 3;
 }
 
+Console.ReadKey(true);
 return 0;
